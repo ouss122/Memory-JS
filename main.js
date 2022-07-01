@@ -200,7 +200,7 @@ button.addEventListener('click',(e)=>{
 
    },200);
 
-   if(button.offsetParent.firstElementChild.children[0].value.length===0 || chosenGroupe===undefined||button.offsetParent.firstElementChild.children[0].value > groupe[chosenGroupe].length+1 ){
+   if(button.offsetParent.firstElementChild.children[0].value.length===0 || chosenGroupe===undefined||button.offsetParent.firstElementChild.children[0].value > groupe[0].length+1 ){
        addvib(button.offsetParent,'shakeX',300);
    }else{
        m= parseInt(button.offsetParent.firstElementChild.children[0].value) *2;
